@@ -1,0 +1,274 @@
+* {
+  font-family: 'calibri';
+}
+
+.formButton {
+    z-index: 10;
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: #d1504e;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: ease-in-out 0.1s;
+    margin-bottom: -80px;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+.formButton:hover {
+    background-color: #ffa6a6;
+    cursor: pointer;
+}
+
+p {
+  font-size: 13px;
+  color: #d1504e;
+  margin-top: -10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: -10px;
+  font-family: 'calibri';
+}
+
+.form {
+  margin-top: 0px;
+  width: 350px;
+}
+
+#h3_login {
+  font-size: 18px;
+  margin-top: 80px;
+  margin-left: -70px;
+}
+
+#formButton_login {
+  z-index: 10;
+  padding: 10px;
+  width: 140px;
+  height: 40px;
+  background-color: #d1504e;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: ease-in-out 0.1s;
+  margin-bottom: -80px;
+  margin-top: -100px;
+  padding-top: 8px;
+}
+
+#formButton_login:hover {
+  background-color: #ffa6a6;
+  cursor: pointer;
+}
+
+#textLinkContainer {
+  margin-top: 80px;
+}
+
+.undoRedo {
+  width: 48px;
+  height: 48px;
+  border: solid;
+  border-width: 0px; 
+  border-radius: 4px;
+  padding-top: 4px;
+  background-color: #2f3536;
+  color: white;
+  
+}
+
+.undoRedo:hover {
+  background-color: #1d2122;
+  cursor: pointer;
+}
+
+.undoRedo:active {
+  background-color: #050505;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#basic-button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-family: calibri;
+  color: #5c6161;
+  margin-top: 15px;
+}
+
+
+#basic-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.createEditButton {
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 40px;
+  background-color: #d1504e;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: ease-in-out 0.1s;
+  padding-top: 8px;
+}
+
+.createEditButton:hover {
+  background-color: #ffa6a6;
+  cursor: pointer;
+}
+
+.input_hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+input[type=radio]:checked + label>img{
+  filter: brightness(95%) grayscale(0.01) opacity(0.99);
+  outline: solid 2px #c4c4c4;
+  transition: 0.2s;
+}
+
+input[type=radio]:hover + label>img{
+  filter: brightness(90%) grayscale(0.01) opacity(0.99);
+  transition: 0.2s;
+}
+
+input[type=radio] + label>img{
+  border: none;
+}
+
+#formButton_create {
+  z-index: 10;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 40px;
+  background-color: #d1504e;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: ease-in-out 0.1s;
+  padding-top: 8px;
+
+}
+
+
+#formButton_create:hover {
+  background-color: #ffa6a6;
+  cursor: pointer;
+}
+
+#journalSettings {
+  color: #bac4c9;
+  margin-top: -22px;
+  margin-left: 250px;
+}
+
+
+#journalSettings:hover {
+  color: #787d80;
+}
+
+#deleteJournal {
+  color: #bac4c9;
+  margin-top: -22px;
+  margin-left: 250px;
+  font-size: 25px;
+}
+
+
+#deleteJournal:hover {
+  color: #787d80;
+  cursor: pointer;
+}
+
+#formButton_edit {
+  z-index: 10;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 40px;
+  background-color: #d1504e;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: ease-in-out 0.1s;
+  padding-top: 8px;
+
+}
+
+
+#formButton_edit:hover {
+  background-color: #ffa6a6;
+  cursor: pointer;
+}
+
+#deletePage {
+  margin-top: -34px;
+  margin-bottom: 13px;
+  border-radius: 3px;
+  margin-left: 95%;
+  border-width: 0px;
+  background-color: #1f2223;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#deletePage:hover {
+  cursor: pointer;
+  background-color: rgb(119, 54, 54);
+}
